@@ -47,7 +47,6 @@ function mostrarComicsEnTabla()
 
 function mostrarValorAlmacen()
 {
-    // pending
     global $inventario;
 
     $totalValue = 0;
@@ -61,7 +60,6 @@ function mostrarValorAlmacen()
 
 function aplicarDescuentoManga()
 {
-    //usar & permite modificar el array original
     global $inventario;
 
     foreach ($inventario as $categoria => &$comics) {

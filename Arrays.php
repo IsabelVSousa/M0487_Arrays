@@ -44,7 +44,6 @@
     }
     echo "<br>";
 
-    // $client["city"] == null; //sigue poniendo el valor de la key pero no la key
     echo "EJERCICIO 4 <br>";
     echo "<br>";
 
@@ -119,8 +118,7 @@
     
     echo "EJERCICIO 8 <br>";
     echo "<br>";
-    //Buscar la nota : 
-
+ 
     // arsort($notas);
     
     foreach ($notas as $key => $value) {
