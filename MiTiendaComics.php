@@ -67,7 +67,7 @@ function aplicarDescuentoManga()
     foreach ($inventario as $categoria => &$comics) {
         foreach ($comics as &$comic) {
             if ($comic['idioma'] == 'Japonés') {
-                $comic['precio'] *=  0.7; // Aplicar descuento del 30%
+                $comic['precio'] *=  0.7; 
             }
         }
     }
